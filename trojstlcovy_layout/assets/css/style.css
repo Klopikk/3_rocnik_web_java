@@ -13,15 +13,18 @@
 }
 
 body {
-font-family: "Big Shoulders", sans-serif;
 color: var(--svetloseda);
 }
 p.a{
     font-family: "Lexand Deca", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    
 }
 
 section{
-    padding: 50px;
+    padding: 3rem; 
 
 }
 .autosedany{
@@ -32,4 +35,18 @@ section{
 }
 .autoluxary{
     background-color: var(--tmava-cyan);
+}
+h2{
+    font-size: 2.5rem;
+    font-family: "Big Shoulders", sans-serif;
+    text-transform: uppercase;
+}
+
+a{
+    padding: 0.5rem ;
+    background-color: var(--transparentna-biela);
+    text-decoration: none underline;
+    border-radius: 30px;
+    margin: 4rem 0;
+    
 }
