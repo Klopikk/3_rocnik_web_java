@@ -4,8 +4,8 @@
 
 :root{
     --oranzova:     oklch(70.82% 0.1512 61.38);
-    --tmava-cyan:   oklch(47.37% 0.0807 203.41);
-    --svetla-cyan:  oklch(34.38% 0.0589 192.89);
+    --svetla-cyan:   oklch(47.37% 0.0807 203.41);
+    --tmava-cyan:  oklch(34.38% 0.0589 192.89);
 
 
     --transparentna-biela: hsla(0, 0%, 100%, 0.75);
@@ -14,20 +14,22 @@
 
 body {
 font-family: "Big Shoulders", sans-serif;
+color: var(--svetloseda);
 }
 p.a{
     font-family: "Lexand Deca", sans-serif;
 }
 
 section{
+    padding: 50px;
 
 }
 .autosedany{
     background-color: var(--oranzova);
 }
 .autosuvs{
-    background-color: var(--tmava-cyan);
+    background-color: var(--svetla-cyan);
 }
 .autoluxary{
-    background-color: var(--svetla-cyan);
+    background-color: var(--tmava-cyan);
 }
