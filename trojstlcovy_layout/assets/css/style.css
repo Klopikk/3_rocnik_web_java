@@ -45,8 +45,32 @@ h2{
 a{
     padding: 0.5rem ;
     background-color: var(--transparentna-biela);
-    text-decoration: none underline;
+    text-decoration: none;
     border-radius: 30px;
     margin: 4rem 0;
     
 }
+.autosedany a{
+    color: var(--oranzova);
+}
+.autosuvs a{
+    color: var(--svetla-cyan);
+}
+.autoluxary a{
+    color: var(--tmava-cyan);
+}
+ a:hover{
+    color: var(--transparentna-biela);
+    border: 2px solid var(--transparentna-biela);
+}
+
+.autosedany a:hover{
+    background-color: var(--oranzova);
+}
+.autosuvs a:hover{
+    background-color: var(--svetla-cyan);
+}
+.autoluxary a:hover{
+    background-color: var(--tmava-cyan);
+}
+
