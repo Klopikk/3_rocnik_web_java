@@ -89,3 +89,17 @@ a{
     background-color: var(--tmava-cyan);
 }
 
+
+
+    
+
+    @media (min-width:768px){
+   
+        main{
+            display: flex;
+            height: 100vh;
+        }
+   
+    
+
+}
