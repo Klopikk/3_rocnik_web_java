@@ -103,3 +103,13 @@ a{
     
 
 }
+header{
+    texttext-transform: uppercase;
+    background-color: var(--tmava-cyan);
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: none;
+}
