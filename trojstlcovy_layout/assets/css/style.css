@@ -104,12 +104,49 @@ a{
 
 }
 header{
-    texttext-transform: uppercase;
+    
     background-color: var(--tmava-cyan);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 80px;
+    box-sizing: border-box;
+
 }
 nav{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
     margin-top: none;
+}
+.Rentacar{
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 2.5rem;
+}
+.header_odkazy {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+   
+}
+.header_odkazy a {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    padding: 0;
+
+}
+.header_odkazy nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
 }
