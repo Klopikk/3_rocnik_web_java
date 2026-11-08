@@ -159,6 +159,7 @@ footer {
     background-color: #1e1e1e;
     color: white;
     padding: 50px 7% 20px;
+    font-family: "Big Shoulders", sans-serif;
 }
 
 .footer_obsah {
@@ -189,7 +190,11 @@ footer {
     padding: 0;
     margin-right: 15px;
 }
-
+.footer_stlpec p {
+    color: #aaa;
+    font-size: 15px;
+    line-height: 1.8;
+}
 
 
 .footer_spodok {
