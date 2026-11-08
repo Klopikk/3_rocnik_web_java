@@ -103,6 +103,7 @@ a{
     
 
 }
+/* Header */
 header{
     
     background-color: var(--tmava-cyan);
@@ -149,4 +150,51 @@ nav{
     flex-direction: row;
     align-items: center;
     gap: 30px;
+}
+
+
+
+/* Footer*/
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 50px 7% 20px;
+}
+
+.footer_obsah {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.footer_stlpec {
+    width: 30%;
+}
+
+.footer_stlpec h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+.footer_stlpec a {
+    color: white;
+    text-decoration: none;
+    border: none;
+    background: none;
+    box-shadow: none;
+    outline: none;
+    padding: 0;
+    margin-right: 15px;
+}
+
+
+
+.footer_spodok {
+    border-top: 1px solid #555;
+    text-align: center;
+    padding-top: 20px;
+    color: #aaa;
 }
